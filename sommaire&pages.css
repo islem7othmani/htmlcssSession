@@ -1,0 +1,30 @@
+#navbarContainer {
+    position: relative;
+    top: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2px;
+    align-items: center; 
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px; 
+}
+
+.links {
+    cursor: pointer;
+    padding-right: 10px;
+    font-weight: 500;
+    transition: color 0.3s ease; 
+}
+
+.links:hover {
+    color: #6B7280;
+}
+
+#content {
+    position: relative;
+    padding-top: 20px; 
+}
